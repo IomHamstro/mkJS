@@ -19,7 +19,7 @@ var drops = []; //массив капель. по одному на каждую колонку
 //x below is the x coordinate
 //1 = y координата капли(то же самое для каждой капли изначально)
 for(var x = 0; x < columns; x++)
-drops[x] = 1;
+drops[x] = 0;
 
 //изображаем символы
 function draw()
@@ -35,7 +35,7 @@ function draw()
         {
         //рандомный символ на печать
         var text = symbols[Math.floor(Math.random()*symbols.length)];
-        //x = i*font_size, y = value of drops[i]*font_size
+//        x = i*font_size, y = value of drops[i]*font_size
         ctx.fillText(text, i*font_size, drops[i]*font_size); //Рисуем текст залитый цветом, определенным fillStyle.
 
         //sending the drop back to the top randomly after it has crossed the screen
@@ -49,4 +49,4 @@ function draw()
         }
         }
 
-setInterval(draw, 35); //функция для отложенного запуска кода постоянно с заданной периодичностью
+setInterval(draw, 50); //функция для отложенного запуска кода постоянно с заданной периодичностью
