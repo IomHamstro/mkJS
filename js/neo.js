@@ -3,7 +3,8 @@ var max=0;
 
 tl = new textlist(
 "hello, Neo...",
-"Матрица опять поимела тебя..."
+"The Matrix has you...",
+"Follow the White Rabbit..."
 );
 function textlist() {
     max=textlist.arguments.length;
@@ -17,7 +18,6 @@ function textticker() {
     console.log( document.tickform.tickfield.value);
     if(pos++ == l) {
     pos = 0;
-    <!-- web-mastery.info  -->
     setTimeout("textticker()", 3000);
     if(++x == max) x = 0;
     l = tl[x].length;

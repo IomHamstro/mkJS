@@ -1,6 +1,13 @@
-/*basic reset*/
-* {margin: 0; padding: 0;}
-/*adding a black bg to the body to make things clearer*/
-body {background: black;}
-
-.content {position:absolute;background: white; min-width:600px;width:600px;height: 670px;top: 0px;  left: 30%;}
+body {
+    background: black;
+}
+.content {
+    position:absolute;background: white; min-width:600px;width:600px;height: 670px;top: 0px;  left: 30%;
+}
+textarea{
+    background-color: #000000;
+    color : #66FF00;
+    font-size : 14px;
+    width: 600px;
+    margin-top: 300px;
+}

@@ -1,39 +1,22 @@
 <html>
 <head>
-    <!--<meta charset="UTF-8">-->
+    <meta charset="UTF-8">
     <link type="text/css" href="css/matrix.css" rel="stylesheet"/>
-    <script src="js/jquery.min.js" type="text/javascript"></script>
-    <script src="js/plugin.js"></script>
-    <link type="text/css" href="css/style.css" rel="stylesheet"/>
 
     <title>Matrix</title>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#img-container').bestplugin({ // Reset plugin settings here if necessary
-                opacity: 0.5,
-                timeOut: 3000,
-                animateTime: 500});
-        });</script>
-
 
 </head>
 <body onload="textticker()">
-
-<!--<canvas> - новый элемент HTML. Он используется для рисования графики с помощью JavaScript. -->
-<!--Этот элемент впервые был реализован компанией Apple в доске для рисования в Mac OS X, а затем перенесен в браузер Safari.-->
-<!--Сейчас этот элемент поддерживается такими браузерами как Opera, Firefox, Google Chrome и т.д.-->
 
 <div id="canvas-wrap" name="canvas">
 
     <canvas id="c"></canvas>
 
-    <div class="content" name="cont">
+    <div class="content">
         <form name="tickform">
             <textarea name="tickfield" rows="4"></textarea>
         </form>
     </div>
-
-</div>
 
 </div>
 
