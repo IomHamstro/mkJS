@@ -1,14 +1,15 @@
 
 var max=0;
-function textlist() {
-    max=textlist.arguments.length;
-    for (i=0; i<max; i++)
-    this[i]=textlist.arguments[i];
-    }
+
 tl = new textlist(
 "hello, Neo...",
 "Матрица опять поимела тебя..."
 );
+function textlist() {
+    max=textlist.arguments.length;
+    for (i=0; i<max; i++)
+        this[i]=textlist.arguments[i];
+}
 var x = 0; pos = 0;
 var l = tl[0].length;
 function textticker() {

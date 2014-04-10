@@ -3,5 +3,4 @@
 /*adding a black bg to the body to make things clearer*/
 body {background: black;}
 
-#overlay{ position:absolute; top: 0px;  left: 30%; }
-.content {position:absolute;background: white; min-width:600px;width:600px;height: 670px;}
+.content {position:absolute;background: white; min-width:600px;width:600px;height: 670px;top: 0px;  left: 30%;}
